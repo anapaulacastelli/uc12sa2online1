@@ -1,0 +1,25 @@
+{
+  "vagas": [
+      {
+          "id": 1,
+          "nome": "Desenvolvedor Front End",
+          "foto": "foto1.png",
+          "descricao": "Trabalhar com Angular",
+          "salario": 5000
+      },
+      {
+          "id": 2,
+          "nome": "Desenvolvedor BackEnd Pleno",
+          "foto": "foto2.png",
+          "descricao": "Trabalhar com Angular",
+          "salario": 10000
+      },
+      {
+          "id": 3,
+          "nome": "Desenvolvedor Fullstack Senior",
+          "foto": "foto3.png",
+          "descricao": "Trabalhar com Angular",
+          "salario": 5000
+      }
+  ]
+}
