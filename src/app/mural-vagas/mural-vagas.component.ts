@@ -20,8 +20,7 @@ export class MuralVagasComponent implements OnInit {
   listarVagas(){
     this._vagasService.getVagas()
     .subscribe(
-      retornaVaga => {
-        this.vagas = retornaVaga
+      () => {
       }
     )
   }
