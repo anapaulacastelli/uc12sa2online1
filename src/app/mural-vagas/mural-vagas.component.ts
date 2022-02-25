@@ -14,14 +14,12 @@ export class MuralVagasComponent implements OnInit {
   constructor(private _vagasService: VagasService) { }
 
   ngOnInit(): void {
-    this.listarVagas();
-  }
-
-  listarVagas(){
     this._vagasService.getVagas()
     .subscribe(
-      () => {
+      (itens) => { 
+        this.vagas = itens;
       }
     )
   }
+
 }

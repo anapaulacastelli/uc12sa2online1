@@ -7,7 +7,7 @@ import { PainelVagasComponent } from '../painel-vagas/painel-vagas.component';
 const rotas: Routes = [
   {path: 'mural-vagas', component:MuralVagasComponent},
   {path: 'painel', component:PainelVagasComponent},
-  {path:'',redirectTo:  '/mural', pathMatch:'full'}
+  {path:'',redirectTo:  '/mural-vagas', pathMatch:'full'}
 ]
 
 @NgModule({

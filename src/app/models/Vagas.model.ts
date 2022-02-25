@@ -1,7 +1,7 @@
-export class Vaga {
-    id: number = 0;
-    nome: string = "";
-    foto: string = "";
-    descricao: string = "";
-    salario: number = 0;
+export interface Vaga {
+    id? : number,
+    nome: string,
+    foto: string,
+    descricao: string ,
+    salario: number
 }
